@@ -1,16 +1,16 @@
-Sure! Here's the updated `README.md` with icons representing the tech stack:
+To display icons without the visible links in the `README.md`, you can use HTML `<img>` tags instead of Markdown image syntax. Here’s the updated `README.md`:
 
 ```markdown
-# YouTube Channel Scrapper
+# YouTube Channel Scraper
 
 ## Description
 This project is a YouTube channel scraper that collects data from specified YouTube channels.
 
 ## Tech Stack
-- ![Node.js](https://img.icons8.com/color/48/000000/nodejs.png) **Node.js**
-- ![Puppeteer](https://img.icons8.com/color/48/000000/puppeteer.png) **Puppeteer**
-- ![MongoDB](https://img.icons8.com/color/48/000000/mongodb.png) **MongoDB**
-- ![Express](https://img.icons8.com/color/48/000000/express.png) **Express**
+- <img src="https://img.icons8.com/color/48/000000/nodejs.png" alt="Node.js" width="24"/> **Node.js**
+- <img src="https://img.icons8.com/color/48/000000/puppeteer.png" alt="Puppeteer" width="24"/> **Puppeteer**
+- <img src="https://img.icons8.com/color/48/000000/mongodb.png" alt="MongoDB" width="24"/> **MongoDB**
+- <img src="https://img.icons8.com/color/48/000000/express.png" alt="Express" width="24"/> **Express**
 
 ## Steps to Run the Project
 
