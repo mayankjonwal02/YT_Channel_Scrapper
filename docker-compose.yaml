@@ -3,29 +3,29 @@ services:
   backend:
     container_name: WebScraper
     build:
-      context: .                 # Set the build context to the current directory
-      dockerfile: Dockerfile      # Define the Dockerfile to use
+      context: .                 
+      dockerfile: Dockerfile      
     ports:
-      - "3000:3000"               # Map port 3000 in the container to port 3000 on the host
+      - "3000:3000"               
     volumes:
-      - .:/app                    # Mount the current directory inside the container
-      - /app/node_modules          # Avoid overwriting the node_modules in the container
+      - .:/app                    
+      - /app/node_modules          
     environment:
-      NODE_ENV: production         # Set environment variable for production
+      NODE_ENV: production         
     depends_on:
-      - mongo                      # Wait for MongoDB to be ready before starting the backend
+      - mongo                      
 
   mongo:
-    image: mongo:latest            # Use the latest MongoDB image
+    image: mongo:latest            
     container_name: mongodb_container
     restart: always
     environment:
-      MONGO_INITDB_ROOT_USERNAME: admin   # Admin username for MongoDB
-      MONGO_INITDB_ROOT_PASSWORD: password  # Admin password for MongoDB
+      MONGO_INITDB_ROOT_USERNAME: admin   
+      MONGO_INITDB_ROOT_PASSWORD: password  
     ports:
-      - "27017:27017"              # Expose MongoDB on port 27017
+      - "27017:27017"              
     volumes:
-      - mongo-data:/data/db        # Persist MongoDB data in a volume
+      - mongo-data:/data/db        
 
 volumes:
   mongo-data:
