@@ -1,6 +1,4 @@
-To display icons without the visible links in the `README.md`, you can use HTML `<img>` tags instead of Markdown image syntax. Here’s the updated `README.md`:
 
-```markdown
 # YouTube Channel Scraper
 
 ## Description
@@ -32,5 +30,5 @@ This project is a YouTube channel scraper that collects data from specified YouT
    ```
    http://localhost:3000
    ```
-```
+
 
