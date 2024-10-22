@@ -13,7 +13,7 @@ This project is a YouTube channel scraper that collects data from specified YouT
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/your-username/your-repository.git
+   git clone https://github.com/mayankjonwal02/YT_Channel_Scrapper.git
    ```
 
 2. **Start Docker Engine**
