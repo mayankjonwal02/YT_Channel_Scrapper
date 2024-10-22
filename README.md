@@ -6,7 +6,6 @@ This project is a YouTube channel scraper that collects data from specified YouT
 
 ## Tech Stack
 - <img src="https://img.icons8.com/color/48/000000/nodejs.png" alt="Node.js" width="24"/> **Node.js**
-- <img src="https://img.icons8.com/color/48/000000/puppeteer.png" alt="Puppeteer" width="24"/> **Puppeteer**
 - <img src="https://img.icons8.com/color/48/000000/mongodb.png" alt="MongoDB" width="24"/> **MongoDB**
 - <img src="https://img.icons8.com/color/48/000000/express.png" alt="Express" width="24"/> **Express**
 
